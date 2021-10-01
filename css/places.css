@@ -1,0 +1,217 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+
+
+
+
+
+/*Main Nav*/
+.stickyheader nav{
+	width:1260px;
+	height:50px;
+	color:deepskyblue;
+	background:white;
+
+	position:fixed;
+	top:0;
+	margin-top:0px;
+	z-index:100;
+}
+.stickyheader nav ul{
+	display:flex;
+}
+.stickyheader nav ul li:first-of-type{
+	margin-left:100px;
+}
+.stickyheader nav ul li{
+	line-height:30px;
+	text-align:center;
+	background:white;
+	list-style-type:none;
+	float:left;
+
+	border-radius:10px;
+	border: 2px inset silver;
+	box-shadow:3px 2px 2px silver;
+	margin:0px 10px 0px 10px;
+}
+.stickyheader nav ul li:active,.stickyheader nav ul li:hover{
+	background:deepskyblue;	
+}
+
+.stickyheader nav ul li a{
+	text-decoration:none;
+	color:deepskyblue;
+	padding: 0 10px;
+	margin-right:10px;
+	text-transform:uppercase;
+}
+.stickyheader nav ul li a:active,.stickyheader nav ul li a:hover{
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+.container{
+	width:1260px;
+	height:2690px;
+	/*background:linear-gradient(silver,white,silver);*/
+}
+
+.container h1{
+	color:skyblue;
+	font-size:40px;
+	margin-top:40px;
+	text-shadow:3px 3px 3px #1e253b;
+	text-align:center;
+	line-height:80px;
+}
+
+.container .row1 .smallcontainer{
+	width:270px;
+	height:340px;
+	background:white;
+	float:left;
+	border:2px inset white;
+	box-shadow:3px 3px 3px silver;
+	margin-left:35px;
+	margin-top:20px;
+	position:relative;
+	
+}
+
+
+.smallcontainer .top{
+	position:absolute;
+	top:180px;
+	left:10px;
+	color:white;
+	padding:1px 8px;
+	background:skyblue;
+	border-radius:10px;
+
+}
+.smallcontainer h3{
+	text-align:center;
+}
+
+.left{
+	float:left;
+	width:120px;
+	margin-left:20px;
+}
+.small{
+	width:100px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+/*Footer*/
+.footer{
+	width:1260px;
+	height:500px;
+	background:url("../img/travel/6.jpeg");
+	background-size:cover;
+	display:flex;
+	position:relative;
+}
+.footer .information{
+	width:250px;
+	margin-left:80px;
+
+}
+.footer div h2,.footer span{
+	color:white;
+	font-family: 'Gluten', cursive;
+	margin-top:100px;
+	margin-bottom:30px;
+}
+
+.footer div ul li{
+	list-style-type:none;
+	
+}
+
+.footer div ul li a{
+	text-decoration:none;
+	color: white;
+	margin-left:20px;
+	font-size:18px;
+}
+.information ul li i{
+	text-decoration:none;
+	color: white;
+	font-size:12px;
+}
+.footer div ul li a:hover{
+	color:#8c035c;
+}
+
+
+
+.footer .pay{
+	width:280px;
+	margin-left:40px;
+}
+.pay i{
+	font-size:50px;
+	padding:5px 10px;
+	color:white;
+}
+.pay i:hover{
+	color:deepskyblue;
+	/*opacity: 0.5;*/
+}
+
+
+
+
+.contact{
+	width:250px;
+	margin-left: 100px;
+}
+.contact ul li i{
+	font-size:30px;
+	padding:5px 10px;
+	color:white;
+}
+.media{
+	width:1000px;
+	height:100px;
+	color:white;
+	font-size:27px;
+	margin-left:100px;
+	position:absolute;
+	top:390px;
+}
+.media a{
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+
+	padding:5px 10px;
+	margin-left:20px;	
+}
+.media a:first-of-type{
+	margin-left:100px;
+}
+.media a:hover{
+	color:deepskyblue;
+}

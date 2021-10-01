@@ -1,0 +1,400 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@500&display=swap');
+
+
+
+
+/*Main Nav*/
+.stickyheader nav{
+	width:1260px;
+	height:50px;
+	color:deepskyblue;
+	background:white;
+
+	position:fixed;
+	top:0;
+	margin-top:0px;
+	z-index:100;
+}
+.stickyheader nav ul{
+	display:flex;
+}
+.stickyheader nav ul li:first-of-type{
+	margin-left:100px;
+}
+
+.stickyheader nav ul li{
+	line-height:30px;
+	text-align:center;
+	background:white;
+	list-style-type:none;
+	float:left;
+
+	border-radius:10px;
+	border: 2px inset silver;
+	box-shadow:3px 2px 2px silver;
+	margin:0px 10px 0px 10px;
+}
+.stickyheader nav ul li:active,.stickyheader nav ul li:hover{
+	background:deepskyblue;	
+}
+
+.stickyheader nav ul li a{
+	text-decoration:none;
+	color:deepskyblue;
+	padding: 0 10px;
+	margin-right:10px;
+	text-transform:uppercase;
+}
+/*.stickyheader nav ul li:last-of-type{
+	margin-left:100px;
+	padding: 0 45px;
+	border:none;
+	font-size:30px;
+}*/
+
+.stickyheader nav ul li a:active,.stickyheader nav ul li a:hover{
+	color:white;
+}
+
+
+/*Small Menu bar*/
+.first-container{
+	width:1260px;
+	height:590px;
+	margin-top: 50px;
+	background:url("../img/travel/canada39.jpg");
+	
+	background-size:cover;
+	animation:slider 15s infinite;
+
+}
+.first-container nav{
+	width:100%;	
+}
+.first-container ul li:first-of-type{
+	margin-left:550px;
+}
+.first-container nav ul li{
+	width:100px;
+	background:white;
+	list-style-type:none;
+	float:left;
+	line-height:30px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow:3px 2px 2px white;
+	margin:20px 10px 2px 10px;
+}
+.first-container nav ul li a{
+	text-decoration:none;
+	color:deepskyblue;
+}
+.first-container .header h1{
+	position:absolute;
+	font-family: 'Lobster', cursive;
+	color:skyblue;
+	text-shadow:3px 3px 3px #1e253b;
+	font-size:50px;
+	left:100px;
+	top:50px;
+}
+.first-container div p{
+	width:400px;
+	color:white;
+	font-size:30px;
+	text-align:justify;
+	line-height: 70px;
+	position:absolute;
+	left:800px;
+	top:420px;
+	padding:2px 20px;
+	border-radius:10px;
+	border:2px inset white;
+	box-shadow:4px 4px 4px silver;
+}
+
+
+
+@keyframes slider{
+	30%{
+		background:url("../img/travel/canada16.jpg");
+		background-size:cover;
+
+	}
+	60%{
+		background:url("../img/travel/canada38.jpeg");
+		background-size:cover;
+		
+	}
+	100%{
+		background:url("../img/travel/canada39.jpg");
+		background-size:cover;
+		
+	}
+	
+}
+
+
+
+
+
+/*Second Container*/
+.container2{
+	width:1260px;
+	height:90px;
+	background:transparent;
+	text-align:center;
+	margin-top:50px;
+	border-top:5px double silver;
+	border-bottom:5px double silver;	
+}
+.container2 label{
+	font-size:25px;
+	font-family: 'Bebas Neue', cursive;
+	color:deepskyblue;
+	text-shadow:2px 2px 2px #08101c;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.container2 label+select{
+	width:300px;
+}
+.container2 input{
+	width:200px;
+	height:32px;
+	color: deepskyblue;
+	background:transparent;
+	outline:none;
+	font-size:20px;
+	line-height:30px;
+	border: 3px inset white;
+	box-shadow:2px 2px 2px silver;
+}
+.container2 select{
+	width:250px;
+	height:37px;
+	color:skyblue;
+	background:transparent;
+	outline:none;
+	font-size:20px;
+	line-height:35px;
+	border:3px inset white;
+	box-shadow:2px 2px 2px silver;
+}
+
+.container2 select+a{
+	text-decoration:none;
+	padding:3px 10px;
+	background: transparent;
+	color:deepskyblue;
+	line-height:35px;
+	border-radius:10px;
+	border:3px inset white;
+	box-shadow:2px 2px 2px silver;
+	
+}
+
+
+
+/*Top Places*/
+.container3{
+	clear:both;
+	width:1260px;
+	height:590px;
+	cursor:pointer;
+	/*background:red;*/
+}
+.container3 h2{
+	color:skyblue;
+	font-size:35px;
+	margin-left:500px;
+	line-height:80px;
+	letter-spacing:2px;
+	text-shadow:2px 2px 2px #1e253b;
+}
+.div4{
+	margin-left:150px;
+	float:left;
+}
+.div5{
+	float:left;
+	margin-left:40px;
+}
+.container3  img{
+	padding:0 2px;
+	border:1px outset white;
+	box-shadow:3px 3px 3px silver;
+}
+
+
+
+
+
+
+
+
+
+
+.container4{
+	width:1260px;
+	height:870px;
+	/*background:linear-gradient(silver,white,silver);*/
+}
+
+.container4 h1{
+	color:skyblue;
+	/*margin-top:100px;*/
+	text-shadow:3px 3px 3px #1e253b;
+	text-align:center;
+	line-height:80px;
+}
+
+.container4 .row1 .smallcontainer{
+	width:270px;
+	height:340px;
+	background:white;
+	float:left;
+	border:2px inset white;
+	box-shadow:3px 3px 3px silver;
+	margin-left:35px;
+	margin-top:20px;
+	position:relative;
+	
+}
+
+
+.smallcontainer .top{
+	position:absolute;
+	top:180px;
+	left:10px;
+	color:white;
+	padding:1px 8px;
+	background:skyblue;
+	border-radius:10px;
+
+}
+.smallcontainer h3{
+	text-align:center;
+}
+
+.left{
+	float:left;
+	width:120px;
+	margin-left:20px;
+}
+.small{
+	width:100px;
+	float:left;
+}
+
+
+
+/*Footer*/
+.footer{
+	width:1260px;
+	height:500px;
+	background:url("../img/travel/6.jpeg");
+	background-size:cover;
+	display:flex;
+	position:relative;
+}
+.footer .information{
+	width:250px;
+	margin-left:80px;
+	/*background:red;*/
+}
+.footer div h2,.footer span{
+	color:white;
+	font-family: 'Gluten', cursive;
+	margin-top:100px;
+	margin-bottom:30px;
+}
+
+.footer div ul li{
+	list-style-type:none;
+	
+}
+
+.footer div ul li a{
+	text-decoration:none;
+	color: white;
+	margin-left:20px;
+	font-size:18px;
+}
+.information ul li i{
+	text-decoration:none;
+	color: white;
+	font-size:12px;
+}
+.footer div ul li a:hover{
+	color:#8c035c;
+}
+
+
+
+.footer .pay{
+	width:280px;
+	margin-left:40px;
+}
+.pay i{
+	font-size:50px;
+	padding:5px 10px;
+	color:white;
+}
+.pay i:hover{
+	color:deepskyblue;
+}
+
+
+.contact{
+	width:250px;
+	margin-left: 100px;
+}
+
+.contact ul li i{
+	font-size:30px;
+	padding:5px 10px;
+	color:white;
+}
+
+
+.media{
+	width:1000px;
+	height:100px;
+	color:white;
+	font-size:27px;
+	margin-left:100px;
+	position:absolute;
+	top:390px;
+}
+.media a{
+	text-decoration:none;
+	color:white;
+	font-size:30px;
+
+	padding:5px 10px;
+	margin-left:20px;	
+}
+.media a:first-of-type{
+	margin-left:100px;
+}
+.media a:hover{
+	color:deepskyblue;
+}
+
+
+
+
+
+
+
+
+
+
